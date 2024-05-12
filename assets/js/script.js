@@ -47,7 +47,6 @@ function playGame(playerChoice) {
 
     // Restart game after playing
     resultDisplay.classList.remove("greenText", "redText");
-    scoresDisplay.classList.remove("greenText", "redText");
 
     switch (result) {
         case "YOU WIN!":
