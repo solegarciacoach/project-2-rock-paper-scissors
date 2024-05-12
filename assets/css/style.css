@@ -14,11 +14,6 @@ body {
     font-size: 2.5rem;
 }
 
-.logo {
-    height: 40px;
-    padding-right: 5px;
-}
-
 /* --------- Game layout */
 
 .game-area {
@@ -33,15 +28,18 @@ body {
     padding: 1%;
 }
 
-.question-area {
+.displays-area {
     width: 50%;
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
 }
 
-.question-area span {
-    padding: 0 15px;
+.results-area {
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    padding: 50px 0;
 }
 
 .score-area {
