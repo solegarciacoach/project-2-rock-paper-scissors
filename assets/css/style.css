@@ -10,12 +10,14 @@ body {
     align-items: center;
 }
 
+
 /* Heading */
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
+
 
 /* Game layout */
 
@@ -65,6 +67,7 @@ body {
     display: inline-block;
     padding: 25px;
 }
+
 
 /* Buttons */
 
@@ -134,13 +137,14 @@ body {
     color: white;
 }
 
+
 /* Results */
 
-.greenText, #playerScore {
+.greenText, #playerScoreDisplay {
     color: green; 
 }
 
-.redText, #computerScore {
+.redText, #computerScoreDisplay {
     color: red; 
 }
 
