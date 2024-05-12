@@ -1,7 +1,7 @@
 /* Global style */
 
 body {
-    background-color: white;
+    background-color: rgb(181, 203, 242);
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
@@ -16,6 +16,7 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
+    color:blue;
 }
 
 
@@ -104,17 +105,6 @@ body {
     left: -0.5em;
 }
 
-.btn--green {
-    border-color: green;
-    color: green;
-}
-
-.btn--green:active,
-.btn--green:hover {
-    background-color: darkgreen;
-    color: white;
-}
-
 .btn--blue {
     border-color: blue;
     color: blue;
@@ -123,17 +113,6 @@ body {
 .btn--blue:active,
 .btn--blue:hover {
     background-color: darkblue;
-    color: white;
-}
-
-.btn--orange {
-    border-color: orange;
-    color: orange;
-}
-
-.btn--orange:active,
-.btn--orange:hover {
-    background-color: darkorange;
     color: white;
 }
 
