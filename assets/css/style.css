@@ -25,6 +25,7 @@ body {
 .game-area {
     background-color: #E6ECF0;
     box-sizing: border-box;
+    box-shadow: 20px 20px 50px 10px rgb(196, 218, 246) inset;
     width: 85%;
     height: 65vh;
     max-height: 450px;
