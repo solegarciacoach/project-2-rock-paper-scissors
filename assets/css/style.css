@@ -31,23 +31,23 @@ body {
     padding: 1%;
 }
 
-.controls-area {
+.choices {
     width: 85%;
     margin: 30px auto;
 }
 
-.controls-area button {
+.choices button {
     cursor: pointer;
 }
 
-.displays-area {
+.displays {
     width: 50%;
     font-size: 2rem;
     margin: auto;
     padding: 50px 0;
 }
 
-.results-area {
+.results {
     width: 50%;
     font-size: 2rem;
     font-weight: bold;
@@ -161,7 +161,7 @@ body {
 /* Media queries */
 
 @media (max-width: 414px) {
-    .controls-area {
+    .choices {
         width: 100%;
     }
 
@@ -179,12 +179,12 @@ body {
         left: -0.7rem;
     }
 
-    .displays-area {
+    .displays {
         padding: 10% 0;
         width: 100%;
     }
 
-    .results-area {
+    .results {
         padding: 10% 0;
         width: 100%;
     }
@@ -218,7 +218,7 @@ body {
         height: 70vh;
     }
 
-    .controls-area {
+    .choices {
         width: 75%;
         margin: 10px auto;
     }
@@ -226,10 +226,10 @@ body {
     .btn--big {
         margin: 10px 10px;
     }
-    .displays-area {
+    .displays {
         padding: 10px 0;
     }
-    .results-area {
+    .results {
         padding: 10px 0;
     }
 }
