@@ -1,20 +1,23 @@
-/* --------- Global style */
+/* Global style */
 
 body {
     background-color: white;
     font-family: "Raleway", sans-serif;
     color: #445361;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* --------- Heading */
+/* Heading */
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
 
-/* --------- Game layout */
+/* Game layout */
 
 .game-area {
     background-color: #E6ECF0;
@@ -28,6 +31,15 @@ body {
     padding: 1%;
 }
 
+.controls-area {
+    width: 85%;
+    margin: 30px auto;
+}
+
+.controls-area button {
+    cursor: pointer;
+}
+
 .displays-area {
     width: 50%;
     font-size: 2rem;
@@ -38,6 +50,7 @@ body {
 .results-area {
     width: 50%;
     font-size: 2rem;
+    font-weight: bold;
     margin: auto;
     padding: 50px 0;
 }
@@ -46,11 +59,6 @@ body {
     margin: 5px auto;
     width: 60%;
     font-size: 1.2rem;
-}
-
-.controls-area {
-    width: 85%;
-    margin: 30px auto;
 }
 
 #score {
@@ -82,7 +90,7 @@ body {
     padding: 25px;
 }
 
-/* --------- Buttons */
+/* Buttons */
 
 .btn {
     width: 220px;
@@ -117,6 +125,17 @@ body {
     left: -0.5em;
 }
 
+.btn--green {
+    border-color: green;
+    color: green;
+}
+
+.btn--green:active,
+.btn--green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
 .btn--blue {
     border-color: blue;
     color: blue;
@@ -139,41 +158,7 @@ body {
     color: white;
 }
 
-.btn--red {
-    border-color: red;
-    color: red;
-}
-
-.btn--red:active,
-.btn--red:hover {
-    background-color: darkred;
-    color: white;
-}
-
-.btn--green {
-    border-color: green;
-    color: green;
-}
-
-.btn--green:active,
-.btn--green:hover {
-    background-color: darkgreen;
-    color: white;
-}
-
-.btn--gray {
-    margin-top: 25px;
-    background-color: #445361;
-    border: 1px transparent;
-    border-radius: 20px;
-}
-
-.btn--gray:active,
-.btn--gray:hover {
-    background-color: #0d1013;
-}
-
-/* --------- Media queries */
+/* Media queries */
 
 @media (max-width: 414px) {
     .controls-area {
@@ -194,13 +179,14 @@ body {
         left: -0.7rem;
     }
 
-    .question-area {
+    .displays-area {
         padding: 10% 0;
         width: 100%;
     }
 
-    .question-area span {
-        padding: 0;
+    .results-area {
+        padding: 10% 0;
+        width: 100%;
     }
 
     .answer-message {
@@ -210,9 +196,6 @@ body {
     #answer-box {
         display: block;
         margin: 0 auto;
-    }
-    .btn--gray {
-        margin-top: 0;
     }
 
     .score-area {
@@ -243,8 +226,10 @@ body {
     .btn--big {
         margin: 10px 10px;
     }
-    .question-area {
+    .displays-area {
         padding: 10px 0;
     }
-
+    .results-area {
+        padding: 10px 0;
+    }
 }
