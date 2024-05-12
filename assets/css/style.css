@@ -61,30 +61,6 @@ body {
     font-size: 1.2rem;
 }
 
-#score {
-    color: green;
-    font-weight: bold;
-}
-
-#incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-.answer-message {
-    display: none;
-    font-size: 1rem;
-}
-
-#answer-box {
-    border: none;
-    color: #445361;
-    display: inline-block;
-    height: 40px;
-    width: 80px;
-    font-size: 1.2rem;
-}
-
 .scores {
     display: inline-block;
     padding: 25px;
@@ -160,11 +136,11 @@ body {
 
 /* Results */
 
-.greenText {
+.greenText, #playerScore {
     color: green; 
 }
 
-.redText {
+.redText, #computerScore {
     color: red; 
 }
 
