@@ -40,7 +40,7 @@ function playGame(playerChoice) {
     // Colors for results
 
     // Restart game after playing
-    result.Display.classList.remove("greenText", "redText");
+    resultDisplay.classList.remove("greenText", "redText");
 
     switch (result) {
         case "YOU WIN!":
