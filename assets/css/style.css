@@ -158,6 +158,17 @@ body {
     color: white;
 }
 
+/* Results */
+
+.greenText {
+    color: green; 
+}
+
+.redText {
+    color: red; 
+}
+
+
 /* Media queries */
 
 @media (max-width: 414px) {
