@@ -1,39 +1,96 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Let's play 'Rock, Paper & Scissors'!
 
-Welcome,
+The **'Rock, Paper & Scissors'** website is a modern, interactive take on the classic hand game. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of this website will be able to challenge the computer in a battle of wits and reflexes. Users will be able to choose their weapon (rock, paper, or scissors) ans see if they can outsmart the AI opponent.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The website offers a fun and relaxing way to take a break while potentially imrpoving users decision-making skills.
 
-## Codeanywhere Reminders
+![Responsive Mockup]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features 
 
-`python3 -m http.server`
+### Existing Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- __The Heading__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  - Featured at the top of the page, the **'Rock, Paper & Scissors'** is easy to see for the users. Upon viewing the page, the users will be able to see the name of the game.
 
-`http_server`
+![Heading]()
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __The Game Area__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - This section will allow the users to play the **'Rock, Paper & Scissors'** game. 
+  - The users will be able to easily see the three icons and select one of them as their weapon of choice.
+  - The users will be able to choose between 'rock', 'paper' or 'scissors' as their weapon of choise.
+  - The mouse when placed in one of the icons will turn into a pointer for better user experience.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Game Area]()
 
-To log into the Heroku toolbelt CLI:
+- __The Choice Display Area__
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+  - This section will allow the users to see their selected icon for the given round.
+  - The user will also see the computer selection for the given round. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Choice Display]()
 
----
+- __The Result Area__
 
-Happy coding!
+  - This section will allow the users to see the result for the given round.
+  - The users will be able to obtain three different types of results: 'You win!', 'You lose!' and/or 'It's a tie!'.
+
+![Result]()
+
+- __The Score Area__
+
+  - This section will allow the user to see exactly how many correct and incorrect answers they have provided.
+
+![Score]()
+
+### Features Left to Implement
+
+- Another feature idea
+
+## Testing 
+
+- I tested that this page works in different browsers: Chrome, Firefox and Safari.
+- I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- I confirmed that the heading, game area, choice display area, result area and score area are all readable and easy to understand.
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator]().
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator]().
+- JavaScript
+  - No errors were found when passing through the official [JSHint]().
+- Accesibility
+  - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools device toolbar.
+  ![Lighthouse]()
+
+### Unfixed Bugs
+
+- No unfixed bugs
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab. 
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here - https://solegarciacoach.github.io/project-2-rock-paper-scissors/
+
+## Credits 
+
+### Content 
+
+- The code to make the style of icons were taken from the [CI Love Maths project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
+- The code to make the choice display area were taken from [hackr.io] (https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
+- The typography of the website was taken from [Google Fonts](https://fonts.google.com/).
+- Instructions on how to implement media queries to make the landing page responsive was taken from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
+
+### Media
+
+- The favicon icon displayed next to the page title in the browser tab was taken from [Favicon](https://favicon.io/).
