@@ -63,9 +63,9 @@ The website offers a fun and relaxing way to take a break while potentially imrp
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
+  - No errors were returned when passing through the official [W3C Markup Validation](https://validator.w3.org/).
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
+  - No errors were found when passing through the official [W3C CSS Validation - Jigsaw](https://jigsaw.w3.org/css-validator/).
 - JavaScript
   - No errors were found when passing through the official [JSHint](https://jshint.com/).
 - Accesibility
@@ -90,7 +90,7 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
 ### Content 
 
 - The code to make the style of icons was taken from the [CI Love Maths project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
-- The code to make the choice display area was taken from [hackr.io] (https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
+- The code to make the choice display area was taken from [hackr.io](https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
 - The typography of the website was taken from [Google Fonts](https://fonts.google.com/).
 - Instructions on how to implement media queries to make the landing page responsive was taken from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
