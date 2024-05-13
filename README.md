@@ -6,7 +6,7 @@ Users of this website will be able to challenge the computer in a battle of wits
 
 The website offers a fun and relaxing way to take a break while potentially imrpoving users decision-making skills.
 
-![Responsive Mockup]()
+![Responsive Mockup](/assets/images/responsive-mockup.png)
 
 ## Features 
 
@@ -16,7 +16,7 @@ The website offers a fun and relaxing way to take a break while potentially imrp
 
   - Featured at the top of the page, the **'Rock, Paper & Scissors'** is easy to see for the users. Upon viewing the page, the users will be able to see the name of the game.
 
-![Heading]()
+![Heading](/assets/images/heading.webp)
 
 - __The Game Area__
 
@@ -25,27 +25,30 @@ The website offers a fun and relaxing way to take a break while potentially imrp
   - The users will be able to choose between 'rock', 'paper' or 'scissors' as their weapon of choise.
   - The mouse when placed in one of the icons will turn into a pointer for better user experience.
 
-![Game Area]()
+![Game Area](/assets/images/game-area.webp)
 
 - __The Choice Display Area__
 
   - This section will allow the users to see their selected icon for the given round.
   - The user will also see the computer selection for the given round. 
 
-![Choice Display]()
+![Choice Display](/assets/images/choice-display.webp)
+![Choice Display](/assets/images/choice-display-1.webp)
 
 - __The Result Area__
 
   - This section will allow the users to see the result for the given round.
   - The users will be able to obtain three different types of results: 'You win!', 'You lose!' and/or 'It's a tie!'.
 
-![Result]()
+![Result](/assets/images/result.webp)
+![Result](/assets/images/result-1.webp)
+![Result](/assets/images/result-2.webp)
 
 - __The Score Area__
 
   - This section will allow the user to see exactly how many correct and incorrect answers they have provided.
 
-![Score]()
+![Score](/assets/images/score.webp)
 
 ### Features Left to Implement
 
@@ -60,14 +63,14 @@ The website offers a fun and relaxing way to take a break while potentially imrp
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]().
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/).
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]().
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/).
 - JavaScript
-  - No errors were found when passing through the official [JSHint]().
+  - No errors were found when passing through the official [JSHint](https://jshint.com/).
 - Accesibility
   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools device toolbar.
-  ![Lighthouse]()
+  ![Lighthouse](/assets/images/lighthouse.webp)
 
 ### Unfixed Bugs
 
@@ -86,8 +89,8 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
 
 ### Content 
 
-- The code to make the style of icons were taken from the [CI Love Maths project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
-- The code to make the choice display area were taken from [hackr.io] (https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
+- The code to make the style of icons was taken from the [CI Love Maths project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
+- The code to make the choice display area was taken from [hackr.io] (https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
 - The typography of the website was taken from [Google Fonts](https://fonts.google.com/).
 - Instructions on how to implement media queries to make the landing page responsive was taken from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 

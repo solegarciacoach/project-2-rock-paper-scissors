@@ -16,7 +16,7 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    color:blue;
+    color: blue;
 }
 
 
@@ -102,7 +102,7 @@ body {
 .btn--big::after {
     content: attr(data-type);
     font-size: 1rem;
-    color:#445361;
+    color: #445361;
     position: relative;
     left: -0.5em;
 }
@@ -121,12 +121,14 @@ body {
 
 /* Results */
 
-.greenText, #playerScoreDisplay {
-    color: green; 
+.greenText,
+#playerScoreDisplay {
+    color: green;
 }
 
-.redText, #computerScoreDisplay {
-    color: red; 
+.redText,
+#computerScoreDisplay {
+    color: red;
 }
 
 
@@ -198,9 +200,11 @@ body {
     .btn--big {
         margin: 10px 10px;
     }
+
     .displays {
         padding: 10px 0;
     }
+
     .results {
         padding: 10px 0;
     }
