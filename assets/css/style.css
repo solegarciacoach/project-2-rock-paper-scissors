@@ -108,14 +108,14 @@ body {
     left: -0.5em;
 }
 
-.btn--red {
-    border-color: red;
-    color: red;
+.btn--orange {
+    border-color: orange;
+    color: orange;
 }
 
-.btn--red:active,
-.btn--red:hover {
-    background-color: darkred;
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: darkorange;
     color: white;
 }
 
