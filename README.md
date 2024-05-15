@@ -1,6 +1,6 @@
-# Let's play 'Rock, Paper & Scissors'!
+# ROCK·PAPER·SCISSORS
 
-The **'Rock, Paper & Scissors'** website is a modern, interactive take on the classic hand game. 
+The **ROCK·PAPER·SCISSORS** website is a modern, interactive take on the classic hand game. 
 
 Users of this website will be able to challenge the computer in a battle of wits and reflexes. Users will be able to choose their weapon (rock, paper, or scissors) ans see if they can outsmart the AI opponent.
 
@@ -8,19 +8,21 @@ The website offers a fun and relaxing way to take a break while potentially imrp
 
 ![Responsive Mockup](/assets/images/responsive-mockup.png)
 
+The live link can be found here - https://solegarciacoach.github.io/project-2-rock-paper-scissors/
+
 ## Features 
 
 ### Existing Features
 
 - __The Heading__
 
-  - Featured at the top of the page, the **'Rock, Paper & Scissors'** is easy to see for the users. Upon viewing the page, the users will be able to see the name of the game.
+  - Featured at the top of the page, the **ROCK·PAPER·SCISSORS** is easy to see for the users. Upon viewing the page, the users will be able to see the name of the game.
 
 ![Heading](/assets/images/heading.webp)
 
 - __The Game Area__
 
-  - This section will allow the users to play the **'Rock, Paper & Scissors'** game. 
+  - This section will allow the users to play the **ROCK·PAPER·SCISSORS** game. 
   - The users will be able to easily see the three icons and select one of them as their weapon of choice.
   - The users will be able to choose between 'rock', 'paper' or 'scissors' as their weapon of choise.
   - The mouse when placed in one of the icons will turn into a pointer for better user experience.
@@ -52,7 +54,7 @@ The website offers a fun and relaxing way to take a break while potentially imrp
 
 ### Features Left to Implement
 
-- Another feature idea
+- Leaderboard
 
 ## Testing 
 
