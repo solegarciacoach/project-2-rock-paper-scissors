@@ -20,9 +20,18 @@
     <div class="game-area">
 
         <div class="choices">
-            <button onclick="playGame('rock')" data-type="rock" class="btn btn--big btn--orange">👊</button>
-            <button onclick="playGame('paper')" data-type="paper" class="btn btn--big btn--orange">✋</button>
-            <button onclick="playGame('scissors')" data-type="scissors" class="btn btn--big btn--orange">✌️</button>
+            <div class="btn-wrapper">
+                <button onclick="playGame('rock')" data-type="rock" class="btn btn--big btn--orange">👊</button>
+                <span>ROCK</span>
+            </div>
+            <div class="btn-wrapper">
+                <button onclick="playGame('paper')" data-type="paper" class="btn btn--big btn--orange">✋</button>
+                <span>PAPER</span>
+            </div>
+            <div class="btn-wrapper">
+                <button onclick="playGame('scissors')" data-type="scissors" class="btn btn--big btn--orange">✌️</button>
+                <span>SCISSORS</span>
+            </div>
         </div>
 
         <div class="displays">
