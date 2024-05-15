@@ -44,7 +44,9 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
   - The users will be able to obtain three different types of results: 'You win!', 'You lose!' and/or 'It's a tie!'.
 
 ![Result](/assets/images/result.webp)
+
 ![Result](/assets/images/result-1.webp)
+
 ![Result](/assets/images/result-2.webp)
 
 - __The Score Area__
