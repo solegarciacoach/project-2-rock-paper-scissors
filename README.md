@@ -6,7 +6,7 @@ Users of this website will be able to challenge the computer in a battle of wits
 
 The website offers a fun and relaxing way to take a break while potentially imrpoving users decision-making skills.
 
-![Responsive Mockup](/assets/images/responsive-mockup.png)
+![Responsive Mockup](/assets/images/responsive.webp)
 
 The live link can be found here - https://solegarciacoach.github.io/project-2-rock-paper-scissors/
 
@@ -35,7 +35,6 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
   - The user will also see the computer selection for the given round. 
 
 ![Choice Display](/assets/images/choice-display.webp)
-![Choice Display](/assets/images/choice-display-1.webp)
 
 - __The Result Area__
 
@@ -50,11 +49,11 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
 
   - This section will allow the user to see exactly how many correct and incorrect answers they have provided.
 
-![Score](/assets/images/score.webp)
+![Score](/assets/images/score-area.webp)
 
 ### Features Left to Implement
 
-- Leaderboard
+- Leaderboard.
 
 ## Testing 
 
