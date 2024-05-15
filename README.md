@@ -92,7 +92,8 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
 ### Content 
 
 - The code to make the style of icons was taken from the [CI Love Maths project](https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode).
-- The code to make the choice display area was taken from [hackr.io](https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
+- The code to make the game play function was taken from the [Bro Code](https://www.youtube.com/watch?v=3uKdQx-SZ5A).
+- The code to make the results colors green and red was taken from [hackr.io](https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript).
 - The typography of the website was taken from [Google Fonts](https://fonts.google.com/).
 - Instructions on how to implement media queries to make the landing page responsive was taken from [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries).
 
