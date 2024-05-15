@@ -2,7 +2,7 @@
 
 The **ROCK·PAPER·SCISSORS** website is a modern, interactive take on the classic hand game. 
 
-Users of this website will be able to challenge the computer in a battle of wits and reflexes. Users will be able to choose their weapon (rock, paper, or scissors) ans see if they can outsmart the AI opponent.
+Users of this website will be able to challenge the computer in a battle of wits and reflexes. Users will be able to choose their weapon (rock, paper, or scissors) ans see if they can outsmart the computer opponent.
 
 The website offers a fun and relaxing way to take a break while potentially imrpoving users decision-making skills.
 
