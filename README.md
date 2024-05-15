@@ -8,6 +8,8 @@ The website offers a fun and relaxing way to take a break while potentially imrp
 
 ![Responsive Mockup](/assets/images/responsive.webp)
 
+The design of this website follows the 5 elements of UX design guidelines.
+
 The live link can be found here - https://solegarciacoach.github.io/project-2-rock-paper-scissors/
 
 ## Features 
@@ -60,6 +62,10 @@ The live link can be found here - https://solegarciacoach.github.io/project-2-ro
 - I tested that this page works in different browsers: Chrome, Firefox and Safari.
 - I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 - I confirmed that the heading, game area, choice display area, result area and score area are all readable and easy to understand.
+- I confirmed that a regression testing was successfuly conducted, working as intended after code runs and delivering expected actions:
+  - Action 1: Website loads.
+  - Action 2: User makes selection.
+  - Action 3, 4 and 5: Computer makes random selection. Website analyses user and computer selections, displays them, and analyses them to showcase result. Scores display.
 
 ### Validator Testing 
 
